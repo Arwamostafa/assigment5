@@ -1,0 +1,144 @@
+/* start nav  */
+@media screen and (max-width: 900px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       
+    }
+    /* .nav h2{
+    margin: 0;
+    } */
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 40px;
+        margin: 0;
+    }
+    
+
+} 
+/* end nav  */
+/* start header  */
+@media screen and (max-width: 900px){
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    height: auto; 
+   
+
+}
+.header .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     width: 65%;
+     font-size: 15px;
+     padding: 10px 0;
+}
+.header .container h1{
+    font-size: 40px;
+    text-align: center;
+} 
+.header .img-content{
+    width: 100%;
+    padding: 8%;
+    text-align: center;
+}
+.container .home-content{
+   align-items: center;
+}
+
+
+}
+/* end haeder  */
+/* start chefs  */
+@media screen and (max-width: 900px){
+     .chefs{
+       
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+    } 
+    .chef {
+        display: flex;
+        flex-wrap:wrap ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+       
+    }
+    .chefs-name{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        gap: 1.9rem;
+    }
+
+}
+/* end chefs  */
+/* start gallary */
+@media screen and (max-width: 900px){
+    .cook{
+        display: flex;
+        flex-direction: row row-reverse;
+        flex-wrap: wrap;
+
+    }
+}
+/* end gallary  */
+/* start contact  */
+@media screen and (max-width: 900px){
+    .contact-content .con {
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap ;
+        
+    }
+
+}
+/* end contact  */
+/* start footer  */
+@media screen and (max-width: 900px){
+.footer {
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+}
+.footer1 {
+    display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.footer1 .sec2{
+    text-align: center;
+     width: 80%
+}
+.sec1{
+    width: 80%;
+}
+.sec1 .sec1-1  h3{
+    align-items:center ;
+}
+.sec3{
+    width: 80%;
+    text-align: center;
+}
+}
